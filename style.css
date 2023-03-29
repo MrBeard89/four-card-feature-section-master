@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 5rem;
+  max-width: fit-content;
+}
+
+.wrapper {
+  display: flex;
+}
+.middle-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+hr {
+  height: 4px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: none;
+}
+
+/************************** Section Header ***************************/
+header {
+  margin: 0 auto;
+  max-width: 470px;
+  text-align: center;
+}
+.main-title {
+  font-weight: 200;
+  text-align-last: center;
+  margin-bottom: 1rem;
+}
+.second-main {
+  font-weight: 600 !important;
+}
+.main-text {
+  text-align: center;
+  font-weight: 200;
+  max-width: 400px;
+  font-size: 12px;
+  margin-left: 2rem;
+  color: hsl(229, 6%, 66%);
+  margin-bottom: 5rem;
+}
+/************************** Section Supervisor ***************************/
+.supervisor {
+  position: relative;
+  margin-top: 9rem;
+  margin-right: 2rem;
+  width: 350px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 15px 15px 0px hsla(234, 12%, 34%, 0.322);
+}
+.supervisor hr {
+  background-color: hsl(180, 62%, 55%);
+}
+.supervisor-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+.supervisor-text {
+  color: hsl(229, 6%, 66%);
+  font-size: 12px;
+  margin-left: 2rem;
+  margin-top: 0.6rem;
+  max-width: 250px;
+}
+.supervisor-icon {
+  position: absolute;
+  top: 10rem;
+  right: 2rem;
+}
+/************************** Section Team Builder ***************************/
+.builder {
+  position: relative;
+  margin-bottom: 2rem;
+  width: 350px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 15px 15px 0px hsla(234, 12%, 34%, 0.322);
+}
+.builder hr {
+  background-color: hsl(0, 78%, 62%);
+}
+.builder-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+.builder-text {
+  color: hsl(229, 6%, 66%);
+  font-size: 12px;
+  margin-left: 2rem;
+  margin-top: 0.6rem;
+  max-width: 250px;
+}
+.builder-icon {
+  position: absolute;
+  top: 10rem;
+  right: 2rem;
+}
+/************************** Section Karma ***************************/
+.karma {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 15px 15px 0px hsla(234, 12%, 34%, 0.322);
+}
+.karma hr {
+  background-color: hsl(34, 97%, 64%);
+}
+.karma-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+.karma-text {
+  color: hsl(229, 6%, 66%);
+  font-size: 12px;
+  margin-left: 2rem;
+  margin-top: 0.6rem;
+  max-width: 250px;
+}
+.karma-icon {
+  position: absolute;
+  top: 10rem;
+  right: 2rem;
+}
+/************************** Section Calculator ***************************/
+.calculator {
+  position: relative;
+  margin-top: 9rem;
+  margin-left: 2rem;
+  width: 350px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 15px 15px 0px hsla(234, 12%, 34%, 0.322);
+}
+.calculator hr {
+  background-color: hsl(212, 86%, 64%);
+}
+.calculator-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+.calculator-text {
+  color: hsl(229, 6%, 66%);
+  font-size: 12px;
+  margin-left: 2rem;
+  margin-top: 0.6rem;
+  max-width: 250px;
+}
+.calculator-icon {
+  position: absolute;
+  top: 10rem;
+  right: 2rem;
+}
+/*************************************************************************/
+@media only screen and (max-width: 500px) {
+  .container {
+    max-width: 375px !important;
+  }
+  .main-text {
+    margin-left: 0;
+  }
+  .supervisor,
+  .calculator,
+  .builder,
+  .karma {
+    margin: 0 !important;
+    margin-bottom: 2rem !important;
+    margin-left: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .supervisor,
+  .calculator,
+  .builder,
+  .karma {
+    margin: 0;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+  }
+} ;
